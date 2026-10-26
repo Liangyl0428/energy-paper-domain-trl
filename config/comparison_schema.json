@@ -1,0 +1,26 @@
+{
+  "paper_fields": [
+    "doc_id",
+    "title",
+    "publication_date",
+    "topic_codes",
+    "technology_carrier",
+    "trl_level"
+  ],
+  "same_field_definition": "same confirmed fine topic + same technology carrier",
+  "per_topic_statistics": [
+    "n",
+    "median",
+    "mean",
+    "q1",
+    "q3",
+    "iqr",
+    "distribution",
+    "delta_from_median"
+  ],
+  "deduplication": [
+    "doc_id",
+    "normalized_title"
+  ],
+  "minimum_peers_default": 20
+}
